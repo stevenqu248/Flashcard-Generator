@@ -93,5 +93,6 @@ function displayInstructions()
 	console.log("As you can see, this flashcard is unusable. You will have to try again and create a new, proper flashcard.");
 }
 
-displayInstructions();
-
+module.exports.BasicCard = BasicCard;
+module.exports.ClozeCard = ClozeCard;
+module.exports.displayInstructions = displayInstructions;
